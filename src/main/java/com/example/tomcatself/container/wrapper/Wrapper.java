@@ -1,4 +1,6 @@
-package com.example.tomcatself.container;
+package com.example.tomcatself.container.wrapper;
+
+import com.example.tomcatself.container.Container;
 
 import javax.servlet.Servlet;
 import javax.servlet.ServletException;
@@ -6,7 +8,7 @@ import javax.servlet.ServletException;
 /**
  * servlet的包装类
  */
-public interface Wrapper extends Container{
+public interface Wrapper extends Container {
     public static final String ADD_MAPPING_EVENT = "addMapping";
     public static final String REMOVE_MAPPING_EVENT = "removeMapping";
 

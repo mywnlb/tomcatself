@@ -6,6 +6,9 @@ import com.example.tomcatself.base.logging.LogFactory;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
+/**
+ * 生命接口基本实现，抽象了各个接口，添加了事件的发布
+ */
 public abstract class LifecycleBase implements Lifecycle{
     private static final Log log = LogFactory.getLog(LifecycleBase.class);
 
